@@ -1,5 +1,4 @@
-This repository contains two Jupyter notebooks that perform data analytics on weather data and power generation from a solar panel in a community centre in the UK. The notebooks utilize a public API to retrieve weather data and forecast information for analysis.
-Historic_weather_and_solar_gen_correlation
+This repository contains 3 Jupyter notebooks that perform data analytics and predictions on weather data and power generation from a solar panel in a community centre in the UK. The notebooks utilize a public API to retrieve weather data and forecast information for analysis.
 
 # Historic_weather_and_solar_gen_correlation
 
