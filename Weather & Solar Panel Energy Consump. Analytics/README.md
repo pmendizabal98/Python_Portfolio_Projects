@@ -1,4 +1,6 @@
-This repository contains 3 Jupyter notebooks that perform data analytics and predictions on weather data and power generation from a solar panel in a community centre in the UK. The notebooks utilize a public API to retrieve weather data and forecast information for analysis.
+The aim of this project is to conduct a correlation analysis between weather data and solar panel energy generation in a community center located in the UK. Additionally, a machine learning prediction model will be developed using a 14-day weather forecast to estimate the solar panel generation in the community center.
+
+This repository includes three Jupyter notebooks that perform data analytics and predictions on weather data and solar panel power generation in the community center. The notebooks make use of a public API to retrieve weather data and forecast information for analysis.
 
 # Weather_solar_energy_correlation_analysis.ipynb
 
