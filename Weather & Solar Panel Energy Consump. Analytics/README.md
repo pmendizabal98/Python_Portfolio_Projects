@@ -19,9 +19,10 @@ The second notebook focuses on retrieving forecast weather data from the same pu
 - Exploring any patterns or trends in the forecasted weather.
 - Analyzing how forecasted weather may impact power generation from the solar panel.
 
-# Solar_Energy_Prediction_Weather_data.ipynb
+# Weather_solar_energy_correlation_analysis.ipynb
 
-In this notebook, a machine learning model (multiple linear regression) was used to make predictions over the 4 best correlated weather variables that affect the solar panel generations.
+This notebook is the overall project with the Correlation Analysis and the machine learning model (3 machine learning model tested) to make predictions over the 4 best correlated weather variables that affect the solar panel generations.
+
 The steps in this notebook include:
 
 - A check for multicollinearity is conducted to identify potential issues caused by high correlations between predictor variables. (Given that in the past notebook, we saw that 4 weather variables has some correlation with the solar panel generation)
