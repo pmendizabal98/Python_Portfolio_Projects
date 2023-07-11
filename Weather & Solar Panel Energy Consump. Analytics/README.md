@@ -1,5 +1,17 @@
 This repository contains 3 Jupyter notebooks that perform data analytics and predictions on weather data and power generation from a solar panel in a community centre in the UK. The notebooks utilize a public API to retrieve weather data and forecast information for analysis.
 
+# Weather_solar_energy_correlation_analysis.ipynb
+
+This notebook is the overall project with the Correlation Analysis and the machine learning model (3 machine learning model tested) to make predictions over the 4 best correlated weather variables that affect the solar panel generations.
+
+The steps in this notebook include:
+
+- A check for multicollinearity is conducted to identify potential issues caused by high correlations between predictor variables. (Given that in the past notebook, we saw that 4 weather variables has some correlation with the solar panel generation)
+- PCA is applied to address multicollinearity issues by transforming correlated variables into a new set of uncorrelated variables called principal components. 
+- A multiple linear regression model is built using the transformed principal components as predictors
+- The goodness of fit of the linear regression model is assessed using the R-squared value, which measures the proportion of variance in solar power generation explained by the predictors
+- Cross-validation is performed to evaluate the model's performance and generalization ability.
+
 # Historic_weather_and_solar_gen_correlation.ipynb
 
 In this notebook, weather data is retrieved from a public API and cleaned for further analysis. The steps involved in this notebook are as follows:
@@ -18,15 +30,3 @@ The second notebook focuses on retrieving forecast weather data from the same pu
 - Performing analysis on the forecasted weather data.
 - Exploring any patterns or trends in the forecasted weather.
 - Analyzing how forecasted weather may impact power generation from the solar panel.
-
-# Weather_solar_energy_correlation_analysis.ipynb
-
-This notebook is the overall project with the Correlation Analysis and the machine learning model (3 machine learning model tested) to make predictions over the 4 best correlated weather variables that affect the solar panel generations.
-
-The steps in this notebook include:
-
-- A check for multicollinearity is conducted to identify potential issues caused by high correlations between predictor variables. (Given that in the past notebook, we saw that 4 weather variables has some correlation with the solar panel generation)
-- PCA is applied to address multicollinearity issues by transforming correlated variables into a new set of uncorrelated variables called principal components. 
-- A multiple linear regression model is built using the transformed principal components as predictors
-- The goodness of fit of the linear regression model is assessed using the R-squared value, which measures the proportion of variance in solar power generation explained by the predictors
-- Cross-validation is performed to evaluate the model's performance and generalization ability.
